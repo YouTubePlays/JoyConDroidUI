@@ -11,6 +11,12 @@ i18n
     fallbackLng: 'en',
     debug: true,
 
+    backend: {
+      loadPath: (lng, ns) => {
+        console.log(lng + ',' + ns);
+        return `locales/${lng}/translation.json`
+      }
+    },
     interpolation: {
       escapeValue: false,
     },
