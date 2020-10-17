@@ -33,5 +33,10 @@
         "disclaimerTitle": "Disclaimer",
         "d1": "JoyCon Droid in no way provides any warranty, express or implied, toward the use of the application and possible consequences to you or your property. It is user's responsibility to assess the risks of using this application or similar application.",
         "d2": "The JoyCon Droid Developer is in no way or shape liable for any use of this application."
-    }
+    },
+    "sony": "Sony",
+    "xiaomi": "Xiaomi",
+    "lg": "LG",
+    "oneplus": "OnePlus",
+    "huawei": "Huawei"
 }

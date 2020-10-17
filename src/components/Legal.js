@@ -20,11 +20,11 @@ function Legal(props) {
             <p style={grayColor}>
                 {t('legalAndDisclaimer.ai4')}
                 <ul style={grayColor}>
-                    <li style={grayColor}>Sony</li>
-                    <li style={grayColor}>Xiaomi</li>
-                    <li style={grayColor}>LG</li>
-                    <li style={grayColor}>OnePlus</li>
-                    <li style={grayColor}>Huawei</li>
+                    <li style={grayColor}>{t('sony')}</li>
+                    <li style={grayColor}>{t('xiaomi')}</li>
+                    <li style={grayColor}>{t('lg')}</li>
+                    <li style={grayColor}>{t('oneplus')}</li>
+                    <li style={grayColor}>{t('huawei')}</li>
                 </ul>
             </p>
             <p style={grayColor}>{t('legalAndDisclaimer.ai5')}</p>
